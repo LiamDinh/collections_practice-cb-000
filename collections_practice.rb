@@ -26,3 +26,7 @@ end
 def swap_elements(string_array)
   swap_elements_from_to(string_array, 1, 2)
 end
+
+def reverse_array(array_integer)
+  array_integer.reverse 
+end 
