@@ -45,3 +45,11 @@ def find_a(string_array)
     word[0] == "a"
   end
 end
+
+
+def sum_array(array_num) 
+  sum = 0
+  array_num.each do |num|
+    sum += num
+  end 
+end 
