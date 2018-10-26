@@ -20,4 +20,8 @@ def swap_elements_from_to(array_string, from_index, to_index)
   place_holder = array_string[from_index]
   array_string[from_index] = array_string[to_index]
   array_string[to_index] = place_holder
-end 
+end
+
+def swap_elements(string_array)
+  swap_elements_from_to(string_array, string_array[1], string_array[2])
+end
