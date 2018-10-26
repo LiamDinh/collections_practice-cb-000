@@ -32,9 +32,9 @@ def reverse_array(array_integer)
 end
 
 def kesha_maker(string_array)
-  new_aray = array.new 
+  new_aray = array.new
   string_array.each do |word|
     word[2] = "$"
-    new_array << word 
-  end 
+    new_array << word
+  end
 end 
