@@ -47,9 +47,9 @@ def find_a(string_array)
 end
 
 
-def sum_array(array_num) 
+def sum_array(array_num)
   sum = 0
   array_num.each do |num|
     sum += num
-  end 
+  end
 end 
