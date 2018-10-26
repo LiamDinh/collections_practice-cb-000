@@ -54,3 +54,13 @@ def sum_array(array_num)
   end
   sum
 end
+
+def add_s(string_array)
+  string_array.collect do |word|
+    if string_array[1] == word
+      word
+    else
+      wor + "s"
+    end
+  end
+end
