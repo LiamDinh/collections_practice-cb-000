@@ -9,3 +9,9 @@ def sort_array_desc(array_num)
     b <=> a
   end
 end 
+
+def sort_array_char_count(string_array)
+  string_array.sort do |a, b|
+    a.length <=> b.length 
+  end 
+end 
