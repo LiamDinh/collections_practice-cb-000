@@ -42,6 +42,6 @@ end
 
 def find_a(string_array)
   string_array.find_all do |word|
-    word[0] = "a"
-  end 
+    word[0] == "a"
+  end
 end
