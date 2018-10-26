@@ -60,7 +60,7 @@ def add_s(string_array)
     if string_array[1] == word
       word
     else
-      wor + "s"
+      word + "s"
     end
   end
 end
