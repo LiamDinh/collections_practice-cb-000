@@ -23,5 +23,5 @@ def swap_elements_from_to(array_string, from_index, to_index)
 end
 
 def swap_elements(string_array)
-  swap_elements_from_to(string_array, string_array[1], string_array[2])
+  swap_elements_from_to(string_array, 1, 2)
 end
