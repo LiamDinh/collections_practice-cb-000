@@ -20,6 +20,7 @@ def swap_elements_from_to(array_string, from_index, to_index)
   place_holder = array_string[from_index]
   array_string[from_index] = array_string[to_index]
   array_string[to_index] = place_holder
+  return array_string
 end
 
 def swap_elements(string_array)
